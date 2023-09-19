@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Ubuntu&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: black; */
+}
+body{
+    /* background: #24d9a6; */
+    /* background-image: linear-gradient(60deg, rgb(78, 95, 95), rgb(104, 5, 180)); */
+    background-image: linear-gradient(240deg, rgb(230, 252, 255), rgb(4, 206, 206));
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+#title{
+    /* color:rgb(45, 184, 184); */
+    color: black;
+    margin-bottom: 50px;
+    /* font-weight: bold; */
+    /* text-decoration:underline; */
+    font-family: 'Dancing Script', cursive;
+    font-size: 7.3vh;
+}
+.container{
+
+    border-radius: 15px;
+    padding: 40px 60px;
+    /* background: rgb(198, 238, 198); */
+    /* background-image: linear-gradient(60deg, rgb(78, 95, 95), rgb(104, 5, 180)); */
+    background-image: linear-gradient(60deg, rgb(78, 95, 95), rgb(0 208 255));
+    display: flex;
+    align-items: center;
+    /* border: 5px solid rgba(205, 204, 204, 0); */
+    /* box-shadow: 0 0 15px rgba(97, 97, 97, 0.4); */
+    flex-direction: column;
+}
+.input{
+    background-color: aliceblue;
+    padding: 12px 20px;
+    width: 300px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+}
+button{
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 0;
+    background: #1d285a;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+button:hover{
+    cursor: pointer;
+    /* color: black; */
+    background-color: #2a3b88;
+}
+#qr-image{
+    display: none;
+}
+img{
+    margin-bottom: 20px;
+}
